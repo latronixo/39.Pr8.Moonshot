@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+var i = 0
 struct CustomText: View {
     var text: String
     
@@ -15,15 +15,16 @@ struct CustomText: View {
     }
     
     init(_ text: String) {
-        print("Creating a new CustomText")
+        i += 1
+        print("Creating a new CustomText # \(i)")
         self.text = text
     }
 }
 
 struct ContentView: View {
     var body: some View {
-        ScrollView {
-            VStack(spacing: 10) {
+        ScrollView(.horizontal) {
+            LazyHStack(spacing: 10) {
                 ForEach(0..<100) {
                     CustomText("Item \($0)")
                         .font(.title)
