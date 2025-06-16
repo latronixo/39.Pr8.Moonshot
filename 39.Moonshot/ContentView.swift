@@ -15,8 +15,8 @@ struct ContentView: View {
     ]
 
     var body: some View {
-        ScrollView {
-            LazyVGrid(columns: layout) {
+        ScrollView(.horizontal) {
+            LazyHGrid(rows: layout) {
                 ForEach(0..<1000) {
                     Text("Item \($0)")
                 }
