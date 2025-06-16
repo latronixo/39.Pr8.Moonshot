@@ -6,31 +6,14 @@
 //
 
 import SwiftUI
-var i = 0
-struct CustomText: View {
-    var text: String
-    
-    var body: some View {
-        Text(text)
-    }
-    
-    init(_ text: String) {
-        i += 1
-        print("Creating a new CustomText # \(i)")
-        self.text = text
-    }
-}
 
 struct ContentView: View {
     var body: some View {
-        ScrollView(.horizontal) {
-            LazyHStack(spacing: 10) {
-                ForEach(0..<100) {
-                    CustomText("Item \($0)")
-                        .font(.title)
-                }
+        NavigationStack {
+            NavigationLink("Tap me"){
+                Text("Detail View")
             }
-            .frame(maxWidth: .infinity)
+            .navigationTitle("SwiftUI")
         }
     }
 }
