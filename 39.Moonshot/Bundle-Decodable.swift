@@ -21,6 +21,11 @@ extension Bundle {
         
         let decoder = JSONDecoder()
         
+        //определяем формат отображения дат
+        let formatter = DateFormatter()
+        formatter.dateFormat = "y-MM-dd"
+        decoder.dateDecodingStrategy = .formatted(formatter)
+        
         //Декодируем полученный текст в экземпляры нашей модели Astronaut, отлавливая все возможные ошибки
         do {
             return try decoder.decode(T.self, from: data)
