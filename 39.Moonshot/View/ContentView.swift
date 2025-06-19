@@ -52,7 +52,7 @@ struct ContentView: View {
             missionCards
         }
         .listStyle(.plain)
-        .scrollContentBackground(.hidden)
+        .listRowBackground(Color.darkBackground)
     }
     
     private var missionCards: some View {
