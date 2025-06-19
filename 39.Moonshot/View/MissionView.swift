@@ -26,6 +26,12 @@ struct MissionView: View {
                         width * 0.6
                     }
                 
+                if let dateLaunch = mission.launchDate {
+                    Text("Date lauched: \(dateLaunch.formatted(date: .abbreviated, time: .omitted))")
+                } else {
+                    Text("Не была выполнена")
+                }
+                
                 VStack(alignment: .leading) {
                     
                     Rectangle()
