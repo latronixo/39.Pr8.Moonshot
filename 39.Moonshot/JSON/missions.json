@@ -34,7 +34,7 @@
                 "role": "Lunar Module Pilot"
             }
 		],
-		"description": "Apollo 7 was an October 1968 human spaceflight mission carried out by the United States. It was the first mission in the United States' Apollo program to carry a crew into space. It was also the first U.S. spaceflight to carry astronauts since the flight of Gemini XII in November 1966.\n\nThe AS-204 mission, also known as \"Apollo 1\", was intended to be the first crewed flight of the Apollo program. It was scheduled to launch in February 1967, but a fire in the cabin during a January 1967 test killed the crew.\n\nCrewed flights were then suspended for 21 months, while the cause of the accident was investigated and improvements made to the spacecraft and safety procedures, and uncrewed test flights of the Saturn V rocket and Apollo Lunar Module were made. Apollo 7 fulfilled Apollo 1's mission of testing the Apollo command and service module (CSM) in low Earth orbit."
+		"description": "Аполлон-7 - это космический полет человека в космос, осуществленный Соединенными Штатами в октябре 1968 года. Это был первый полет в рамках американской программы Аполлон с экипажем в космос. Это был также первый космический полет США с астронавтами на борту после полета Джемини XII в ноябре 1966 года. Миссия AS-204, также известная как Аполлон-1, должна была стать первым полетом с экипажем в рамках программы Аполлон. Его запуск был запланирован на февраль 1967 года, но в результате пожара в кабине во время испытаний в январе 1967 года погиб экипаж. Полеты с экипажем были приостановлены на 21 месяц, пока не были расследованы причины аварии и не были внесены улучшения в космический аппарат и процедуры обеспечения безопасности, а также не были проведены испытательные полеты без экипажа. Были изготовлены ракета Сатурн-V и лунный модуль Аполлон. Аполлон-7 выполнил миссию Аполлона-1 по испытанию командно-сервисного модуля Аполлон (CSM) на низкой околоземной орбите."
 	},
 	{
 		"id": 8,
@@ -53,7 +53,7 @@
                 "role": "Lunar Module Pilot"
             }
 		],
-		"description": "Аполлон-8 стал вторым космическим полетом с экипажем в рамках американской космической программы Аполлон, первым был Аполлон-7, который остался на околоземной орбите. Наполеон-8 был запущен 21 декабря 1968 года и стал первым космическим аппаратом с экипажем, который покинул низкую околоземную орбиту, достиг Луны, вышел на ее орбиту и вернулся. Экипаж из трех астронавтов — Фрэнка Бормана, Джеймса Ловелла и Уильяма Андерса — был первым человеком, совершившим полет на Луну, ставшим свидетелем и сфотографировавшим восход Земли и избежавшим притяжения небесного тела. Наполеон-8 стал третьим полетом и первым запуском ракеты Сатурн-V с экипажем, а также первым полетом человека в космос из Космического центра Кеннеди, расположенного рядом со станцией ВВС на мысе Канаверал во Флориде.."
+		"description": "Аполлон-8 был вторым космическим полетом с экипажем в рамках американской космической программы Аполлон, первым был Аполлон-7, который остался на околоземной орбите. Аполлон-8 был запущен 21 декабря 1968 года и стал первым космическим аппаратом с экипажем, который покинул низкую околоземную орбиту, достиг Луны, вышел на ее орбиту и вернулся обратно. Экипаж из трех астронавтов — Фрэнка Бормана, Джеймса Ловелла и Уильяма Андерса — был первым человеком, совершившим полет на Луну, ставшим свидетелем и сфотографировавшим восход солнца на Земле и избежавшим притяжения небесного тела. Наполеон-8 стал третьим полетом и первым запуском ракеты Сатурн-V с экипажем, а также первым полетом человека в космос из Космического центра Кеннеди, расположенного рядом со станцией ВВС на мысе Канаверал во Флориде..."
 	},
 	{
 		"id": 9,
@@ -72,7 +72,7 @@
                 "role": "Lunar Module Pilot"
             }
 		],
-		"description": "Apollo 9 was a March 1969 human spaceflight, the third in NASA's Apollo program. Flown in low Earth orbit, it was the second crewed Apollo mission to be launched by a Saturn V rocket, and the first flight of the full Apollo spacecraft: the command and service module (CSM) with the Lunar Module (LM).\n\nThe mission was flown to qualify the LM for lunar orbit operations by demonstrating its descent and ascent propulsion systems, showing that its crew could fly it independently, then rendezvous and dock with the CSM again, as would be required for the first crewed lunar landing.\n\nOther objectives of the flight included firing the LM descent engine to propel the spacecraft stack as a backup mode (as would be required on the Apollo 13 mission), and use of the Portable Life Support System backpack outside of the LM cabin."
+		"description": "Аполлон-9 - это космический полет человека в космос в марте 1969 года, третий в рамках программы НАСА Аполлон. Это был второй полет Аполлона с экипажем на низкой околоземной орбите, запущенный ракетой-носителем Сатурн V, и первый полет полноценного космического корабля Аполлон: командно-сервисного модуля (CSM) с лунным модулем (LM). Полет был проведен для того, чтобы LM соответствовал требованиям операции на лунной орбите, продемонстрировав двигательные установки для спуска и подъема, продемонстрировав, что экипаж может управлять аппаратом самостоятельно, затем снова выполнить сближение и стыковку с CSM, как и требовалось бы для первой высадки экипажа на Луну.Другие цели полета включали запуск спускаемого двигателя LM для приведения в движение блока космических аппаратов в качестве резервного режима (как это требовалось в миссии Аполлон-13) и использование портативной системы жизнеобеспечения вне кабины LM."
 	},
 	{
 		"id": 10,
@@ -91,7 +91,7 @@
                 "role": "Lunar Module Pilot"
             }
 		],
-		"description": "Apollo 10 was a May 1969 human spaceflight, the fourth crewed mission in the United States Apollo program, and the second (after Apollo 8) to orbit the Moon.\n\nIt was the F mission: a \"dress rehearsal\" for the first Moon landing, testing all of the components and procedures, just short of actually landing. The Apollo Lunar Module (LM) was flown to a descent orbit within 8.4 nautical miles (15.6 km) of the lunar surface, at the point where powered descent for landing would normally begin.\n\nAfter orbiting the Moon 31 times Apollo 10 returned safely to Earth, and its success enabled the first landing to be attempted on the Apollo 11 mission two months later."
+		"description": "Аполлон-10 - это космический полет человека в космос в мае 1969 года, четвертый полет с экипажем в рамках американской программы Аполлон и второй (после Аполлона-8) полет на орбиту Луны.Это была миссия F: генеральная репетиция первой высадки на Луну, тестирование всех компонентов и процедур, незадолго до фактической посадки. Лунный модуль Аполлон (LM) был выведен на орбиту снижения в пределах 8,4 морских миль (15,6 км) от поверхности Луны, в точке, где обычно начинается управляемый спуск для посадки.Совершив 31 облет Луны, Аполлон-10 благополучно вернулся на Землю, и его успех позволил совершить первую посадку в рамках миссии Аполлон-11 два месяца спустя."
 	},
 	{
 		"id": 11,
@@ -110,7 +110,7 @@
                 "role": "Lunar Module Pilot"
             }
 		],
-		"description": "Apollo 11 was the spaceflight that first landed humans on the Moon. Commander Neil Armstrong and lunar module pilot Buzz Aldrin formed the American crew that landed the Apollo Lunar Module Eagle on July 20, 1969, at 20:17 UTC.\n\nArmstrong became the first person to step onto the lunar surface six hours and 39 minutes later on July 21 at 02:56 UTC; Aldrin joined him 19 minutes later. They spent about two and a quarter hours together outside the spacecraft, and they collected 47.5 pounds (21.5 kg) of lunar material to bring back to Earth.\n\nCommand module pilot Michael Collins flew the command module Columbia alone in lunar orbit while they were on the Moon's surface. Armstrong and Aldrin spent 21 hours 31 minutes on the lunar surface at a site they named Tranquility Base before lifting off to rejoin Columbia in lunar orbit."
+		"description": "Аполлон-11 был космическим полетом, который впервые высадил людей на Луну. Командир Нил Армстронг и пилот лунного модуля Базз Олдрин составили американский экипаж, который совершил посадку на лунном модуле Аполлон Игл 20 июля 1969 года в 20:17 по Гринвичу. Нил Армстронг стал первым человеком, ступившим на поверхность Луны шесть часов и 39 минут спустя, 21 июля в 02:56 по Гринвичу. Олдрин присоединился к нему через 19 минут. Они провели вместе около двух с четвертью часов вне космического корабля и собрали 47,5 фунтов (21,5 кг) лунного материала, чтобы доставить его обратно на Землю.Пилот командного модуля Майкл Коллинз в одиночку управлял командным модулем Колумбия на лунной орбите, пока они находились на поверхности Луны. Армстронг и Олдрин провели 21 час 31 минуту на поверхности Луны в месте, которое они назвали базой Спокойствия, прежде чем взлететь, чтобы присоединиться к Колумбии на лунной орбите."
 	},
 	{
 		"id": 12,
@@ -129,7 +129,7 @@
                 "role": "Lunar Module Pilot"
             }
 		],
-		"description": "Apollo 12 was the sixth crewed flight in the United States Apollo program and the second to land on the Moon. It was launched on November 14, 1969, from the Kennedy Space Center, Florida, four months after Apollo 11.\n\nCommander Charles \"Pete\" Conrad and Lunar Module Pilot Alan L. Bean performed just over one day and seven hours of lunar surface activity while Command Module Pilot Richard F. Gordon remained in lunar orbit. The landing site for the mission was located in the southeastern portion of the Ocean of Storms."
+		"description": "Аполлон-12 стал шестым полетом с экипажем в рамках американской программы Аполлон и вторым полетом на Луну. Он был запущен 14 ноября 1969 года из Космического центра Кеннеди, штат Флорида, через четыре месяца после запуска Аполлона-11. Командир Чарльз Пит Конрад и пилот лунного модуля Алан Л. Бин провели на поверхности Луны чуть более одного дня и семи часов, в то время как пилот командного модуля Ричард Ф. Гордон оставался на лунной орбите. Посадочная площадка для миссии была расположена в юго-восточной части Океана штормов."
 	},
 	{
 		"id": 13,
@@ -148,7 +148,7 @@
                 "role": "Lunar module pilot"
             }
 		],
-		"description": "Apollo 13 was the seventh crewed mission in the Apollo space program and the third intended to land on the Moon. The craft was launched on April 11, 1970, from Kennedy Space Center (KSC), but the lunar landing was aborted after an oxygen tank in the service module (SM) failed two days into the mission. The crew instead looped around the Moon, and returned safely to Earth on April 17, 1970.\n\nThe mission was commanded by Jim Lovell with Jack Swigert as command module pilot (CMP) and Fred Haise as lunar module pilot (LMP). Swigert was a late replacement for the original CMP Ken Mattingly, who was grounded after exposure to rubella."
+		"description": "Аполлон-13 был седьмым полетом с экипажем в рамках космической программы Аполлон и третьим полетом, направленным на посадку на Луну. Космический аппарат был запущен 11 апреля 1970 года из Космического центра Кеннеди (KSC), но посадка на Луну была прервана после того, как кислородный баллон в служебном модуле (SM) вышел из строя через два дня после начала миссии. Вместо этого экипаж совершил облет Луны и благополучно вернулся на Землю 17 апреля 1970 года. Миссией командовал Джим Ловелл, Джек Суиджерт был пилотом командного модуля (CMP), а Фред Хейз - пилотом лунного модуля (LMP). Суиджерт был последней заменой первоначальному генеральному прокурору Кену Маттингли, который был отстранен от работы после заражения краснухой."
 	},
 	{
 		"id": 14,
@@ -167,7 +167,7 @@
                 "role": "Lunar Module Pilot"
             }
 		],
-		"description": "Apollo 14 was the eighth crewed mission in the United States Apollo program, the third to land on the Moon, and the first to land in the lunar highlands. It was the last of the \"H missions,\" targeted landings with two-day stays on the Moon with two lunar EVAs, or moonwalks.\n\nCommander Alan Shepard, Command Module Pilot Stuart Roosa, and Lunar Module Pilot Edgar Mitchell launched on their nine-day mission on Sunday, January 31, 1971, at 4:03:02 p.m. EST.\n\nLiftoff was delayed forty minutes and two seconds, due to launch site weather restrictions, the first such delay in the Apollo program."
+		"description": "Аполлон-14 был восьмым полетом с экипажем в рамках американской программы Аполлон, третьим полетом на Луну и первым полетом на лунном нагорье. Это была последняя из миссий Н, целевых посадок с двухдневным пребыванием на Луне и двумя выходами на Луну, или лунными прогулками.Командир Алан Шепард, пилот командного модуля Стюарт Рооса и пилот лунного модуля Эдгар Митчелл начали свою девятидневную миссию в воскресенье, 31 января 1971 года, в 16:03:02 по восточному времени. Старт был отложен на сорок минут и две секунды из-за погодных условий на космодроме ограничения, первая подобная задержка в программе Аполлон."
 	},
 	{
 		"id": 15,
@@ -186,7 +186,7 @@
                 "role": "Lunar module pilot"
             }
 		],
-		"description": "Apollo 15 was the ninth crewed mission in the United States' Apollo program, and the fourth to land on the Moon.\n\nIt was the first J mission, with a longer stay on the Moon and a greater focus on science than earlier landings. Apollo 15 saw the first use of the Lunar Roving Vehicle.\n\nThe mission began on July 26, 1971, and ended on August 7, the lunar surface exploration taking place between July 30 and August 2.\n\nCommander David Scott and Lunar Module Pilot James Irwin landed near Hadley Rille and explored the local area using the rover, allowing them to travel further from the lunar module than had been possible on previous missions. They spent 18​1⁄2 hours on the Moon's surface on extravehicular activity (EVA), and collected 170 pounds (77 kg) of surface material."
+		"description": "Аполлон-15 стал девятой миссией с экипажем в рамках американской программы Аполлон и четвертой по счету, совершившей посадку на Луну.Это была первая миссия J с более длительным пребыванием на Луне и большим вниманием к науке, чем предыдущие высадки. На Аполлоне-15 впервые был использован луноход.Миссия началась 26 июля 1971 года и завершилась 7 августа, исследование лунной поверхности проходило с 30 июля по 2 августа. Командир Дэвид Скотт и пилот лунного модуля Джеймс Ирвин приземлились недалеко от Хэдли Рилл и исследовали местность с помощью марсохода, что позволило им путешествовать по дальше от лунного модуля, чем это было возможно во время предыдущих миссий. Они провели на поверхности Луны 181,2 часа во время выхода в открытый космос (EVA) и собрали 170 фунтов (77 кг) поверхностного материала."
 	},
 	{
 		"id": 16,
@@ -205,7 +205,7 @@
                 "role": "Lunar Module Pilot"
             }
 		],
-		"description": "Apollo 16 was the tenth crewed mission in the United States Apollo space program, the fifth and second-to-last to land on the Moon, and the second to land in the lunar highlands.\n\nThe second of the so-called \"J missions,\" it was crewed by Commander John Young, Lunar Module Pilot Charles Duke and Command Module Pilot Ken Mattingly. Launched from the Kennedy Space Center in Florida at 12:54 PM EST on April 16, 1972, the mission lasted 11 days, 1 hour, and 51 minutes, and concluded at 2:45 PM EST on April 27."
+		"description": "Аполлон-16 был десятым полетом с экипажем в рамках американской космической программы Аполлон, пятым и предпоследним полетом на Луну и вторым полетом на лунное нагорье. Во второй из так называемых J-миссий экипаж состоял из командира Джона Янга, пилота Лунного модуля Чарльза Дьюка и пилота командного модуля Кена Маттингли. Запущенный из Космического центра Кеннеди во Флориде в 12:54 по восточному времени 16 апреля 1972 года, полет продолжался 11 дней, 1 час и 51 минуту и завершился в 14:45 по восточному времени 27 апреля."
 	},
 	{
 		"id": 17,
@@ -224,6 +224,6 @@
                 "role": "Lunar Module Pilot"
             }
 		],
-		"description": "Apollo 17 (December 7–19, 1972) was the final mission of NASA's Apollo program; it remains the most recent time humans have travelled beyond low Earth orbit. Its crew consisted of Commander Eugene Cernan, Lunar Module Pilot Harrison Schmitt, and Command Module Pilot Ronald Evans, and it carried a biological experiment containing five mice.\n\nLaunched at 12:33 a.m. Eastern Standard Time (EST) on December 7, 1972, Apollo 17 was a \"J-type mission\" that included three days on the lunar surface, extended scientific capability, and the use of the third Lunar Roving Vehicle (LRV)."
+		"description": "Аполлон-17 (7-19 декабря 1972 года) был заключительной миссией программы НАСА Аполлон; это был самый последний полет человека за пределы низкой околоземной орбиты. Его экипаж состоял из командира Юджина Сернана, пилота лунного модуля Харрисона Шмитта и пилота командного модуля Рональда Эванса, и он проводил биологический эксперимент с участием пяти мышей.Запущенный в 12:33 по восточному поясному времени (EST) 7 декабря 1972 года, Аполлон-17 был миссией типа J, которая включала в себя три дня на поверхности Луны, расширенный научный потенциал и использование третьего лунохода."
 	}
 ]
