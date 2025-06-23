@@ -7,6 +7,11 @@
 
 import SwiftUI
 
+// 1. Определяем тип для навигации
+enum NavigationDestination: Hashable {
+    case mission(Mission)
+}
+
 struct ContentView: View {
     let astronauts: [String: Astronaut] = Bundle.main.decode("astronauts.json")
     let missions: [Mission] = Bundle.main.decode("missions.json")
@@ -34,6 +39,13 @@ struct ContentView: View {
                     Image(systemName: showInGrid ? "rectangle.grid.1x2" : "rectangle.grid.2x2")
                 }
             }
+            // 2. Определяем destination для навигации
+            .navigationDestination(for: NavigationDestination.self) { destination in
+                switch destination {
+                case .mission(let mission):
+                    MissionView(mission: mission, astronauts: astronauts)
+                }
+            }
         }
         .preferredColorScheme(.dark)
     }
@@ -52,14 +64,13 @@ struct ContentView: View {
             missionCards
         }
         .listStyle(.plain)
-        .listRowBackground(Color.darkBackground)
+        .scrollContentBackground(.hidden)
     }
     
     private var missionCards: some View {
         ForEach(missions) { mission in
-            NavigationLink {
-                MissionView(mission: mission, astronauts: astronauts)
-            } label: {
+            // 3. Используем NavigationLink с value
+            NavigationLink(value: NavigationDestination.mission(mission)) {
                 VStack {
                     Image(mission.image)
                         .resizable()
