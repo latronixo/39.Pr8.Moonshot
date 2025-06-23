@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct MissionView: View {
-    struct CrewMember {
+    struct CrewMember: Hashable {
         let role: String
         let astronaut: Astronaut
     }
@@ -24,9 +24,7 @@ struct MissionView: View {
                 missionDetails
                 
                 // Кнопка для перехода к списку экипажа
-                NavigationLink {
-                    CrewListView(crew: crew)
-                } label: {
+                NavigationLink(value: crew){
                     HStack {
                         Text("See Crew")
                             .font(.headline)
@@ -40,6 +38,9 @@ struct MissionView: View {
         .navigationTitle(mission.displayName)
         .navigationBarTitleDisplayMode(.inline)
         .background(.darkBackground)
+        .navigationDestination(for: [CrewMember].self) { crew in
+            CrewListView(crew: crew)
+        }
     }
     
     // MARK: - Subviews
@@ -99,10 +100,8 @@ struct CrewListView: View {
     
     var body: some View {
         List(crew, id: \.role) { member in
-            NavigationLink {
-                AstronautView(astronaut: member.astronaut)
-            } label: {
-                HStack {
+            NavigationLink(value: member) {
+               HStack {
                     Image(member.astronaut.id)
                         .resizable()
                         .frame(width: 133, height: 100  )
@@ -125,6 +124,9 @@ struct CrewListView: View {
         .navigationTitle("Mission Crew")
         .background(.darkBackground)
         .scrollContentBackground(.hidden)
+        .navigationDestination(for: MissionView.CrewMember.self) { crewMember in
+            AstronautView(astronaut: crewMember.astronaut)
+        }
     }
 }
 
