@@ -16,14 +16,24 @@ struct AstronautView: View {
                 Image(astronaut.id)
                     .resizable()
                     .scaledToFit()
+                    .accessibilityLabel("Фотография \(astronaut.name)")
                 
                 Text(astronaut.description)
                     .padding()
+                    .accessibilityLabel("Об астронавте и его роли в миссии: \(astronaut.description)")
             }
+            .accessibilityElement(children: .combine)
         }
         .background(.darkBackground)
         .navigationTitle(astronaut.name)
         .navigationBarTitleDisplayMode(.inline)
+        .toolbar {
+            ToolbarItem(placement: .cancellationAction) {
+                Button("") {}
+                    .accessibilityLabel("Скажите назад для возврата к списку экипажа")
+                    .accessibilityInputLabels(["назад", "к списку экипажа"])
+            }
+        }
     }
 }
 

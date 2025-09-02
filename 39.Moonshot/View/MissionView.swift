@@ -32,6 +32,9 @@ struct MissionView: View {
                     }
                     .padding()
                 }
+                .accessibilityElement(children: .ignore)
+                .accessibilityLabel("Скажите перейти к экипажу, чтобы узнать больше об экипаже этой миссии")
+                .accessibilityInputLabels(["Перейти к экипажу", "узнать больше об экипаже"])
             }
             .padding(.bottom)
         }
@@ -40,6 +43,13 @@ struct MissionView: View {
         .background(.darkBackground)
         .navigationDestination(for: [CrewMember].self) { crew in
             CrewListView(crew: crew)
+        }
+        .toolbar {
+            ToolbarItem(placement: .cancellationAction) {
+                Button("") {}
+                    .accessibilityLabel("Скажите назад для возврата к списку миссий")
+                    .accessibilityInputLabels(["назад", "к списку миссий"])
+            }
         }
     }
     
@@ -53,11 +63,16 @@ struct MissionView: View {
                 .containerRelativeFrame(.horizontal) { width, _ in
                     width * 0.6
                 }
+                .accessibilityElement()
+                .accessibilityLabel("Миссия \(mission.displayName)")
             
             if let dateLaunch = mission.launchDate {
                 Text("Date launched: \(dateLaunch.formatted(date: .abbreviated, time: .omitted))")
+                    .accessibilityElement()
+                    .accessibilityLabel("выполнена \(dateLaunch)")
             } else {
                 Text("Не была выполнена")
+                    .accessibilityLabel("Не была выполнена")
             }
         }
     }
@@ -69,12 +84,15 @@ struct MissionView: View {
             Text("Mission Highlights")
                 .font(.title.bold())
                 .padding(.bottom, 5)
+                .accessibilityAddTraits(.isHeader)
             
             Text(mission.description)
             
             divider
         }
         .padding(.horizontal)
+        .accessibilityElement(children: .ignore)
+        .accessibilityLabel("Описание мисии: \(mission.description)")
     }
     
     private var divider: some View {
@@ -82,6 +100,7 @@ struct MissionView: View {
             .frame(height: 2)
             .foregroundStyle(.lightBackground)
             .padding(.vertical)
+            .accessibilityHidden(true)
     }
     
     init(mission: Mission, astronauts: [String: Astronaut]) {

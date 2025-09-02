@@ -95,6 +95,9 @@ struct ContentView: View {
                     RoundedRectangle(cornerRadius: 10).stroke(.lightBackground)
                 )
             }
+            .accessibilityElement(children: .ignore)
+            .accessibilityLabel("Миссия \(mission.displayName). Произнесите название мисиии для перехода к ее описанию")
+            .accessibilityInputLabels([mission.displayName, "Миссия \(mission.displayName)"])
             .listRowBackground(Color.darkBackground)
         }
     }
